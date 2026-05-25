@@ -71,8 +71,8 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 * ✅ page.tsx
 * ✅ layout.tsx
 * ✅ Nested Routes
-* Navigation
-* Link Component
+* ✅ Navigation
+* ✅ Link Component
 * Programmatic Navigation
 
 ---
@@ -92,8 +92,8 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 
 * ✅ Root Layout
 * ✅ Nested Layouts
-* Templates
-* Route Groups
+* ✅ Templates
+* ✅ Route Groups
 * Private Folders
 
 ---
@@ -111,9 +111,9 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 
 # Level 6 — Server Components
 
-* React Server Components (RSC)
-* Client Components
-* `"use client"`
+* ✅ React Server Components (RSC)
+* ✅ Client Components
+* ✅ `"use client"`
 * Component Composition
 * Server Rendering Concepts
 
