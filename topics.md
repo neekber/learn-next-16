@@ -79,10 +79,10 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 
 # Level 3 — Dynamic Routing
 
-* Dynamic Routes
-* `[id]`
-* `[slug]`
-* Multiple Parameters
+* ✅ Dynamic Routes
+* ✅ `[id]`
+* ✅ `[slug]`
+* ✅ Multiple Parameters
 * Catch-All Routes
 * Optional Catch-All Routes
 
@@ -90,8 +90,8 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 
 # Level 4 — Layouts & Templates
 
-* Root Layout
-* Nested Layouts
+* ✅ Root Layout
+* ✅ Nested Layouts
 * Templates
 * Route Groups
 * Private Folders
