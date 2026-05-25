@@ -55,22 +55,22 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 
 # Level 1 — Next.js Basics
 
-* What is Next.js?
-* React vs Next.js
-* Project Setup
-* Folder Structure
-* App Router
-* Development Server
-* Production Build
+* ✅ What is Next.js?
+* ✅ React vs Next.js
+* ✅ Project Setup
+* ✅ Folder Structure
+* ✅ App Router
+* ✅ Development Server
+* ✅ Production Build
 
 ---
 
 # Level 2 — Routing Fundamentals
 
-* App Router
-* page.tsx
-* layout.tsx
-* Nested Routes
+* ✅ App Router
+* ✅ page.tsx
+* ✅ layout.tsx
+* ✅ Nested Routes
 * Navigation
 * Link Component
 * Programmatic Navigation
