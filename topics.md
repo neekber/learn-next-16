@@ -84,7 +84,7 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 * ✅ `[slug]`
 * ✅ Multiple Parameters
 * ✅ Catch-All Routes
-* Optional Catch-All Routes
+* ✅ Optional Catch-All Routes
 
 ---
 

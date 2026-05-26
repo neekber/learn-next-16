@@ -7,7 +7,7 @@ const FilterData = async ({params}: { params: Promise<{data: []}> }) => {
         <h1>Filter Data</h1>
         <pre>{JSON.stringify(data, null, 2)}</pre>
       </div>
-    );
+      );
 
 }
 
