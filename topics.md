@@ -94,7 +94,7 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 * ✅ Nested Layouts
 * ✅ Templates
 * ✅ Route Groups
-* Private Folders
+* ✅ Private Folders
 
 ---
 
@@ -114,8 +114,8 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 * ✅ React Server Components (RSC)
 * ✅ Client Components
 * ✅ `"use client"`
-* Component Composition
-* Server Rendering Concepts
+* ✅ Component Composition
+* ✅ Server Rendering Concepts
 
 ---
 
