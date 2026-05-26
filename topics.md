@@ -73,7 +73,7 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 * ✅ Nested Routes
 * ✅ Navigation
 * ✅ Link Component
-* Programmatic Navigation
+* ✅ Programmatic Navigation
 
 ---
 
@@ -83,7 +83,7 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 * ✅ `[id]`
 * ✅ `[slug]`
 * ✅ Multiple Parameters
-* Catch-All Routes
+* ✅ Catch-All Routes
 * Optional Catch-All Routes
 
 ---
