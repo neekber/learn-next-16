@@ -100,13 +100,13 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 
 # Level 5 — Styling
 
-* CSS Modules
-* Global CSS
-* Tailwind CSS
+* ✅ CSS Modules
+* ✅ Global CSS
+* ✅ Tailwind CSS
 * Sass
-* Font Management
-* Asset Handling
-
+* ✅ Font Management
+* ✅ Asset Handling
+ 
 ---
 
 # Level 6 — Server Components

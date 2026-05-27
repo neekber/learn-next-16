@@ -2,55 +2,31 @@
 
 import React from "react";
 
+import style from "./messages.module.css";
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
+
 const Messages = () => {
   return (
     <>
-      <style>{`
-        .page {
-          padding: 30px;
-          font-family: Arial, sans-serif;
-        }
-
-        .card {
-          background: white;
-          padding: 20px;
-          border-radius: 12px;
-          box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-          margin-top: 20px;
-        }
-
-        .message {
-          padding: 15px;
-          border-bottom: 1px solid #eee;
-        }
-
-        .message:last-child {
-          border-bottom: none;
-        }
-
-        .sender {
-          font-weight: bold;
-          color: #2563eb;
-        }
-      `}</style>
-
-      <div className="page">
+      <div className={style.page}>
         <h1>Messages</h1>
 
-        <div className="card">
-          <div className="message">
-            <div className="sender">Alice</div>
-            <p>Hey, how is the project going?</p>
+        <div className={style.card}>
+          <div className={style.message}>
+            <div className={style.sender}>Alice</div>
+            <p className={inter.className}>Hey, how is the project going?</p>
           </div>
 
-          <div className="message">
-            <div className="sender">Bob</div>
-            <p>Please review the latest update.</p>
+          <div className={style.message}>
+            <div className={style.sender}>Bob</div>
+            <p className={inter.className}>Please review the latest update.</p>
           </div>
 
-          <div className="message">
-            <div className="sender">Charlie</div>
-            <p>Meeting scheduled for tomorrow.</p>
+          <div className={style.message}>
+            <div className={style.sender}>Charlie</div>
+            <p className={inter.className}>Meeting scheduled for tomorrow.</p>
           </div>
         </div>
       </div>
