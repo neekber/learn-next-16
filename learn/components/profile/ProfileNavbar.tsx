@@ -91,10 +91,6 @@ const ProfileNavbar = () => {
     padding: 15px 20px;
   }
 
-  .nav-links {
-    display: none;
-  }
-
   .profile-info {
     display: none;
   }

@@ -121,19 +121,19 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 
 # Level 7 — Data Fetching
 
-* Fetch API
-* Async Server Components
-* Server Data Fetching
-* Client Data Fetching
-* Parallel Data Fetching
+* ✅ Fetch API
+* ✅ Async Server Components
+* ✅ Server Data Fetching
+* ✅ Client Data Fetching
+* ✅ Parallel Data Fetching
 
 ---
 
 # Level 8 — Loading & Error Handling
 
-* loading.tsx
-* error.tsx
-* not-found.tsx
+* ✅ loading.tsx
+* ✅ error.tsx
+* ✅ not-found.tsx
 * Suspense
 * Streaming UI
 

@@ -6,6 +6,8 @@ const Settings = () => {
   const [name, setName] = useState("John Doe");
   const [email, setEmail] = useState("john@example.com");
 
+  throw new Error("Simulated error in Settings page");
+
   return (
     <>
       <style>{`
