@@ -134,8 +134,8 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 * ✅ loading.tsx
 * ✅ error.tsx
 * ✅ not-found.tsx
-* Suspense
-* Streaming UI
+* ✅ Suspense
+* ✅ Streaming UI
 
 ---
 
