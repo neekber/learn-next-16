@@ -141,12 +141,12 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 
 # Level 9 — Rendering Strategies
 
-* Static Site Generation (SSG)
-* Server Side Rendering (SSR)
-* Client Side Rendering (CSR)
-* Incremental Static Regeneration (ISR)
-* Dynamic Rendering
-* Static Rendering
+* ✅ Static Site Generation (SSG)
+* ✅ Server Side Rendering (SSR)
+* ✅ Client Side Rendering (CSR)
+* ✅ Incremental Static Regeneration (ISR)
+* ✅ Dynamic Rendering
+* ✅ Static Rendering
 
 ---
 
