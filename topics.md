@@ -152,8 +152,8 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 
 # Level 10 — SEO & Metadata
 
-* Metadata API
-* Dynamic Metadata
+* ✅ Metadata API
+* ✅ Dynamic Metadata
 * Open Graph
 * Twitter Cards
 * Sitemap.xml

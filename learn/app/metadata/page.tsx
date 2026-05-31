@@ -1,8 +1,22 @@
 import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Metadata Page",
-};
+// metadata ==========
+// export const metadata: Metadata = {
+//   title: "Metadata Page",
+// };
+
+// dynamic metadata ==========
+// export function generateMetadata(): Metadata{
+
+//     // use the generateMetadata function to dynamically generate metadata for this page
+
+//     return {
+//         title: "Metadata Page by Generate Metadata Function",
+//         description: "This page demonstrates how to define metadata for a Next.js page.",
+//     }
+// }
+
+
 
 export default function MetadataPage() {
 
