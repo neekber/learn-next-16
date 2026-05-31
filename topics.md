@@ -154,11 +154,11 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 
 * ✅ Metadata API
 * ✅ Dynamic Metadata
-* Open Graph
-* Twitter Cards
-* Sitemap.xml
-* Robots.txt
-* Structured Data
+* ✅ Open Graph
+* ✅ Twitter Cards
+* ✅ Sitemap.xml 
+* ✅ Robots.txt
+* ✅ Structured Data
 
 ---
 
