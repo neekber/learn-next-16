@@ -164,11 +164,11 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 
 # Level 11 — Caching Fundamentals
 
-* Request Memoization
-* Data Cache
-* Router Cache
-* Full Route Cache
-* Cache Architecture
+* ✅ Request Memoization
+* ✅ Data Cache
+* ✅ Router Cache
+* ✅ Full Route Cache
+* ✅ Cache Architecture
 
 ---
 
