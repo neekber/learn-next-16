@@ -174,11 +174,11 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 
 # Level 12 — Cache Invalidation
 
-* Revalidation
-* Cache Tags
-* revalidatePath()
-* revalidateTag()
-* Cache Life Profiles
+* ✅ Revalidation
+* ✅ Cache Tags
+* ✅ revalidatePath()
+* ✅ revalidateTag()
+* ✅ Cache Life Profiles
 
 ---
 
