@@ -184,12 +184,12 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 
 # Level 13 — Server Actions
 
-* Introduction to Server Actions
-* use server
-* Form Actions
-* Database Mutations
-* Optimistic UI Updates
-* Error Handling
+* ✅ Introduction to Server Actions
+* ✅ use server
+* ✅ Form Actions
+* ✅ Database Mutations
+* ✅ Optimistic UI Updates
+* ✅ Error Handling
 
 ---
 
