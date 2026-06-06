@@ -205,14 +205,14 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 
 # Level 15 — Route Handlers (API Routes)
 
-* Route Handlers
-* GET
-* POST
-* PUT
-* PATCH
-* DELETE
-* Request Object
-* Response Object
+* ✅ Route Handlers
+* ✅ GET
+* ✅ POST
+* ✅ PUT
+* ✅ PATCH
+* ✅ DELETE
+* ✅ Request Object
+* ✅ Response Object
 
 ---
 
