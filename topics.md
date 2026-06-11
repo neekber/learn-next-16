@@ -220,7 +220,7 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 
 ## SQL Databases
 
-* PostgreSQL
+* ✅ PostgreSQL
 * MySQL
 * SQLite
 
@@ -230,7 +230,7 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 
 ## ORMs
 
-* Prisma
+* ✅ Prisma
 * Drizzle ORM
 
 ---
