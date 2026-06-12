@@ -1,21 +1,27 @@
-import registerUser from "@/app/actions/auth/registerUser";
+import RegisterFormComponent from "@/app/components/auth/RegisterForm";
+import Link from "next/link";
 
-async function RegisterFunction(){ 
+export default function RegisterPage(){
+    return (
+      <>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            flexDirection: "column",
+            gap: "1rem",
+          }}
+        >
+          <h1>Register  Form</h1>
 
-    return(
-        <>
-            <h1>Register</h1>
-            <br/>
-            <div>
-                <form action={registerUser} style={{ display: "flex", flexDirection: "column", gap: "10px", width: "300px" }}>
-                    <input type="text" name="username" placeholder="Username" required />
-                    <input type="email" name="email" placeholder="Email" required />
-                    <input type="password" name="password" placeholder="Password" required />
-                    <button type="submit">Register</button>
-                </form>
-            </div>
-        </>
-    )
+          <br />
+
+          <RegisterFormComponent />
+
+          <p>
+            have an account <Link href={"/auth/login"}>Login</Link>
+          </p>
+        </div>
+      </>
+    );
 }
-
-export default RegisterFunction;
