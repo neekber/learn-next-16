@@ -242,18 +242,25 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 * OAuth
 * Protected Routes
 * Role Based Access Control (RBAC)
-* Middleware Authentication
+* Authentication with NextAuth/Auth.js
+* Server-Side Authentication
 
 --- 
 
-# Level 18 — Middleware
+# Level 18 — Proxy & Route Handling
 
-* Middleware Basics
+* Understanding the Next.js Proxy (proxy.ts)
+* Request Interception
+* Authentication with Proxy
+* Route Protection
 * Redirects
 * Rewrites
-* Authentication Middleware
-* Cookies
-* Headers
+* Header Manipulation
+* Cookie Management
+* Geo & Locale-Based Routing
+* Rate Limiting with Proxy
+* Edge Runtime Basics
+* Combining Proxy with RBAC
 
 ---
 
