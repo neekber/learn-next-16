@@ -446,7 +446,7 @@ Mastering all levels will cover nearly every major feature and architecture patt
 
 FINAL MASTERY PROJECTS (ORDER)
 
-PROJECT 1
+✅ PROJECT 1
 - Register
 - Login
 - Logout

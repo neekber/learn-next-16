@@ -1,11 +1,11 @@
 import { cookies } from "next/headers";
 
-export const isLogedIn = async (): Promise<boolean | null> =>{
+export const isLogedIn = async (): Promise<boolean> =>{
 
   let cookieStore = await cookies();
   let token = await cookieStore.get('token')?.value;
 
-  if(!token) return null;
+  if(!token) return false;
   return true;
 
 }
