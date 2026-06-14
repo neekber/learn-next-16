@@ -47,7 +47,6 @@ export async function loginAction(
     }
 
     const token = generateToken({
-      id: user.id,
       email: user.email,
       username: user.username,
     });
