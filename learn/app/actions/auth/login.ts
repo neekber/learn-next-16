@@ -1,50 +1,74 @@
-'use server';
+"use server";
 
-import { cookies } from "next/headers";
-import prisma from "@/app/lib/prisma/prisma";
 import bcrypt from "bcrypt";
-import { generateToken } from "@/app/lib/jwt/jwt";
+import prisma from "@/app/lib/prisma/prisma";
+import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
+import { generateToken } from "@/app/lib/jwt/jwt";
 
-export async function loginAction(prevState: any, formData: FormData) {
-  const email = formData.get("email") as string;
-  const password = formData.get("password") as string;
+type LoginState = {
+  success: boolean;
+  error: string;
+};
 
-  const user = await prisma.user.findUnique({
-    where: { email },
-  });
+export async function loginAction(
+  prevState: LoginState,
+  formData: FormData
+): Promise<LoginState> {
+  const email = formData.get("email")?.toString().trim();
+  const password = formData.get("password")?.toString().trim();
 
-  if (!user) {
+  if (!email || !password) {
     return {
       success: false,
-      error: "User not found",
+      error: "Email and password are required",
     };
   }
 
-  const valid = await bcrypt.compare(password, user.password);
+  try {
+    const user = await prisma.user.findUnique({
+      where: { email },
+    });
 
-  if (!valid) {
-    return {
-      success: false,
-      error: "Invalid password",
-    };
-  }
+    if (!user) {
+      return {
+        success: false,
+        error: "User not found",
+      };
+    }
+
+    const validPassword = await bcrypt.compare(password, user.password);
+
+    if (!validPassword) {
+      return {
+        success: false,
+        error: "Invalid password",
+      };
+    }
 
     const token = generateToken({
-    email: user.email,
-    username: user.username,
+      id: user.id,
+      email: user.email,
+      username: user.username,
     });
 
     const cookieStore = await cookies();
 
     cookieStore.set("token", token, {
-    httpOnly: true,
-    secure: process.env.NODE_ENV === "production",
-    sameSite: "strict",
-    path: "/",
-    maxAge: 60 * 60 * 24 * 7,
+      httpOnly: true,
+      secure: process.env.NODE_ENV === "production",
+      sameSite: "strict",
+      path: "/",
+      maxAge: 60 * 60 * 24 * 7,
     });
+  } catch (error) {
+    console.error("Login Error:", error);
 
-    redirect("/");
+    return {
+      success: false,
+      error: "Something went wrong",
+    };
+  }
 
+  redirect("/");
 }

@@ -5,7 +5,7 @@ import { useActionState } from "react";
 
 const initialState = {
   success: false,
-  error: null,
+  error: "",
 }
 
 export default function LoginForm(){
@@ -65,7 +65,7 @@ export default function LoginForm(){
           </button>
 
           {state.error && <p style={{ color: "red" }}>{state.error}</p>}
-          
+
         </form>
       </>
     );
