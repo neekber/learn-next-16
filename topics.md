@@ -452,12 +452,12 @@ FINAL MASTERY PROJECTS (ORDER)
 - Logout
 - bcrypt
 
-PROJECT 2
+✅ PROJECT 2
 - Session Authentication
 - Cookies
 - Protected Routes
 
-PROJECT 3
+✅ PROJECT 3
 - JWT Authentication
 - Access Tokens
 - Refresh Tokens
