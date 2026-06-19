@@ -238,12 +238,12 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 # Level 17 — Authentication
 
 * ✅ Session Authentication
-* JWT Authentication
+* ✅ JWT Authentication
 * OAuth
 * Protected Routes
 * Role Based Access Control (RBAC)
 * Authentication with NextAuth/Auth.js
-* Server-Side Authentication
+* ✅ Server-Side Authentication
 
 --- 
 
