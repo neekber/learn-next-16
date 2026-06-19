@@ -249,14 +249,14 @@ This roadmap organizes Next.js 16 topics from absolute beginner to expert level.
 
 # Level 18 — Proxy & Route Handling
 
-* Understanding the Next.js Proxy (proxy.ts)
-* Request Interception
-* Authentication with Proxy
+* ✅ Understanding the Next.js Proxy (proxy.ts)
+* ✅ Request Interception
+* ✅ Authentication with Proxy
 * Route Protection
-* Redirects
+* ✅ Redirects
 * Rewrites
 * Header Manipulation
-* Cookie Management
+* ✅ Cookie Management
 * Geo & Locale-Based Routing
 * Rate Limiting with Proxy
 * Edge Runtime Basics
